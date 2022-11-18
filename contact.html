@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Martin Wallmann </title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <!--Header with Logo and Navigation -->
+    <header class="page-header">
+        <img src="img/mw-logo.png"  alt="Personal logo of Martin Wallmann, a text logo that consists of my name" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main content-->
+    <div class="centered-content">
+
+        <h1>Contact</h1>
+
+        <form action="" method="post" id="contact-form" class="contact-form">
+            <label class="standard-label" for="contact-email">E-mail*:</label><br>
+            <input type="email" placeholder="mail@domain.com" id="contact-email" class="contact-form__item" required><br><br>
+        
+            <label class="standard-label" for="telephone-number">Telephone:</label><br>
+            <input type="tel" placeholder="phonenumber" id="telephone-number" class="contact-form__item" pattern=""><br><br>
+        
+            <label class="standard-label" for="contact-message">Message* (max. 240 Characters): </label><br>
+            <textarea maxlength="240" placeholder="your message" id="contact-message" class="contact-form__item" required></textarea><br><br>
+        
+            <input type="submit" value="Send message">
+        </form>
+        <br>
+        <br>
+
+        <section>
+            Martin Wallmann<br>
+            not my real address+<br>
+            01234 i don't live here<br>
+            Deutschland<br>
+            <br>
+            <a href="tel:+4912345">Tel +49 12345</a><br>
+            <a href="mailto:someoneelse@gmail.com">someoneelse(at)gmail.com</a>
+        
+            <a href="mailto:someoneelse@gmail.com">Contact me</a>
+        </section>
+    </div>
+    <!--Footer with social media links-->
+    <footer class="page-footer">
+        <p>
+            Find me on
+        </p>
+        <div class="social-media">
+          <img src="img/github_icon.svg" class="social-contact" alt="Github">
+          <img src="img/twitter_icon.svg" class="social-contact" alt="Twitter">
+          <img src="img/linkedin_icon.svg" class="social-contact" alt="LinkedIn">
+        </div>
+      </footer>
+
+      <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
