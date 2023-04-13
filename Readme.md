@@ -1,13 +1,19 @@
-# Martins Portfolio
-this is a Portfolio - project    --   Work in Progress
+[Responsive Portfolio Website]
+-----
+[Responsive Portfolio Website] is a responsive website using HTML and CSS. The website will showcase my professional portfolio, which will include the projects i’ll build throughout Full-Stack Web Development Program.
 
- ## Tools used:
-- HTML 5
-- CSS 3
-- Flexbox
-- GH-Pages
+Built With
+-----
+The Frontend Tech Stack
 
- ## Screenshot
-    
+Client
+- HTML
+- CSS
 
- ## Link: https//derwalli.github.io/Portfolio-Website/index.hmtl
+Key Features
+- [homepage] with a short introduction and link(s) to work examples
+- [about] page with key information about me as an individual, my relevant skills, and the tools or programming language(s) I use
+- [portfolio] section with my work examples in a grid
+- [contact] section
+
+Link: https//derwalli.github.io/Portfolio-Website/index.hmtl
